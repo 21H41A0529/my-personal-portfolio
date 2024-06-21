@@ -9,7 +9,7 @@ const Header=()=> (
     <ul className='sections'>
         
         <li>
-            <Link to="/" className="element">
+            <Link to="/my-personal-portfolio" className="element">
             Home
             </Link>
         </li>

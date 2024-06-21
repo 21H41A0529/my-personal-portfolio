@@ -36,7 +36,7 @@ const projects=[
         category:"REACT",
         imageName:"portfolioImage",
         imageUrl:portfolioImage,
-        demoLink:" https://21h41a0529.github.io/todo-app/",
+        demoLink:"https://21h41a0529.github.io/my-personal-portfolio",
         githubLink:"https://github.com/21H41A0529/my-personal-portfolio",
         technologies:"React,Css"
     }
