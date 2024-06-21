@@ -1,0 +1,29 @@
+.projectLogo {
+  width:200px;
+  height:200px;
+}
+.projectcard {
+    background-image:linear-gradient(to left,rgb(216, 216, 8),rgb(7, 113, 117));
+    width:200px;
+    margin-right: 20px;
+}
+@media screen and (max-width:768px) {
+    .projectcard {
+        width:300px;
+    }
+    .projectLogo{
+        height:300px;
+        width:300px;
+    }
+    
+}
+.info {
+    padding:10px;
+}
+.info1 {
+    color:white;
+    
+}
+.info2 {
+    color:blueviolet
+}

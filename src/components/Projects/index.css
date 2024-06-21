@@ -1,4 +1,35 @@
 .projectsCon {
     display:flex;
     flex-direction: column;
+    height:100vh;
+    background-image:linear-gradient(to left,rgb(15, 152, 134),rgb(27, 202, 73));
+}
+.tabsList {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+@media screen and (max-width:768px) {
+    .tabsList {
+        justify-content: space-around;
+    }
+}
+.projectsList {
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .projectsList{
+    flex-direction: column;
+    }
+    .projectsCon {
+        height:auto;
+    }
+    
 }

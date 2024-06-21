@@ -1,0 +1,26 @@
+.resume-button {
+    background-color: rgb(0, 255, 213);
+    border-radius: 10px;
+    padding:25px;
+    border-width: 0px;
+    color:rgb(148, 26, 46);
+    cursor: pointer;
+}
+.resumeCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-image: linear-gradient(yellow,red,pink,orange);
+}
+@media screen and (max-width:768px) {
+    .resumeCon {
+        align-items: start;
+        background-image: url("../images/resumeBackground.jpg");
+    background-size: cover;
+    }
+    .resume-button {
+        margin-top:20px;
+    }
+}

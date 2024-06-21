@@ -1,0 +1,32 @@
+.underlineStyle {
+    border-bottom:3px solid yellow ;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    color:rgb(136, 5, 64);
+    font-weight: bold;
+    outline: none;
+    font-size: larger;
+    background-color: transparent; 
+   
+}
+.normalStyle {
+    border: none;
+   
+    color:rgb(136, 5, 64);
+    font-size: larger;
+    font-weight: bold;
+    outline: none;
+    background-color: transparent;
+    
+
+    
+}
+
+@media screen and (max-width:768px) {
+    .tab {
+        width:100px;
+        text-align: center;
+    }
+    
+}

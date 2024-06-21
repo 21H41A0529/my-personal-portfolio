@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import "./index.css"
 
 const Contact=()=>(
-<div>
+<div >
  <h1 className="contactTitle">Contact____</h1>
  <div className="contactList">
    <div className="email">
@@ -20,7 +20,7 @@ const Contact=()=>(
    </div>
    <div className="social">
  <a target="_blank" href="https://www.linkedin.com/in/lakshmi-kumpatla/"><CiLinkedin className="linkedinLogo"/></a>
- <a target="_blank" href="https://github.com/">
+ <a target="_blank" href="https://github.com/21H41A0529">
 <FaGithub className="linkedinLogo"/>
  </a>
 </div>
