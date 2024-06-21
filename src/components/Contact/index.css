@@ -1,0 +1,72 @@
+.contactTitle {
+    margin-left: 20px;
+}
+.contactList {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.emailList {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    padding:10px;
+    height:100px;
+    width:25%
+
+
+}
+.emailLogo {
+    width:50px;
+    height:50px;
+}
+.emailLogoCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right:25px;
+}
+.emailTitle {
+    margin:0px;
+}
+.para {
+    color:white;
+    margin:0px;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    height:100px;
+    padding:10px;
+    margin-left:20px;
+    width:20%
+}
+.linkedinLogo {
+    width:50px;
+    height:50px;
+    color: black;
+}
+@media screen and (max-width:768px) {
+    .email {
+        width:90%;
+    }
+    .social {
+        width:90%;
+        margin-top:20px;
+        margin-left:0px;
+    }
+    .contactList {
+        flex-direction: column;
+    }
+}

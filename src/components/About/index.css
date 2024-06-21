@@ -1,0 +1,65 @@
+
+.aboutCon {
+     background-image: url("../images/background.png");
+     height:100vh;
+     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contentCon {
+    margin:65px;
+    width:50%;
+}
+.heading {
+    
+    color:rgb(51, 17, 87);
+} 
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    color:rgb(53, 10, 10);
+}
+.interests {
+    width:50%;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+}
+.interestsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+.interestElement {
+    width:50%;
+    font-weight: bold;
+    padding:10px;
+border-radius: 5px;
+margin:5px;
+color:white;
+    background-color: rgb(147, 108, 108);
+}
+@media screen and (max-width:768px) {
+    .aboutCon {
+        flex-direction: column;
+        width:100%;
+        height:auto;
+        
+    }
+    .contentCon {
+        width:90%;
+        padding:10px;
+        margin:0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .interestElement {
+        width:100%;
+    }
+    .interests {
+        width:80%;
+    }
+
+}

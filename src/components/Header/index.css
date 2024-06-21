@@ -1,0 +1,45 @@
+.header {
+    background-color: rgb(77, 127, 188);
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoTitle {
+    color:white;
+    font-family: 'Gill Sans';
+}
+
+.sections {
+    list-style-type:none;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li {
+ margin-left:10px;
+}
+
+.element {
+    color:white;
+    text-decoration: none;
+    font-family: 'Gill Sans';
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        flex-direction: column;
+    }
+    .sections {
+        display:flex;
+        flex-wrap: wrap;
+        margin-top:0px;
+    }
+    li {
+        width:20%;
+        margin-top:10px;
+        
+    }
+}

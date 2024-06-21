@@ -1,0 +1,172 @@
+.main {
+    padding-bottom:30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8,151,144);
+}
+.education {
+    display: flex;
+    flex-direction: row;
+  flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.onlineEducation {
+    display: flex;
+    flex-direction: row;
+  flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nxtwave {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:31%;
+    border-radius: 10px;
+box-shadow: 0px 3px black 3px;
+    height:320px;
+    background-color: rgb(71, 202, 154);
+  margin-right: 70px;
+  margin-top:20px;
+  padding:10px;
+}
+.nxtwave:hover {
+    border: 2px solid #c50505;   
+}
+.engineering {
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    width:30%;
+    border-radius: 10px;
+box-shadow: 0px 3px black 3px;
+    height:400px;
+    background-color: rgb(71, 202, 154);
+  margin-right: 70px;
+  margin-top:20px;
+}
+.engineering:hover {
+
+    border: 2px solid #c50505;   
+}
+.bvcImage {
+    width:100%;
+    height:100px;
+}
+.courses {
+    margin:0px;
+}
+.learntTitle {
+    margin:0px;
+}
+.intermediate {
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    width:30%;
+    height:400px;
+    margin-top:20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px black 3px;
+    background-color: rgb(71, 202, 154);
+}
+.intermediate:hover {
+    border: 2px solid #c50505;   
+
+}
+
+.sasiImage {
+    width:100%;
+    height:100px;
+}
+.List {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding:10px;
+    color:rgb(25, 16, 84)
+}
+.title {
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.year {
+    color:rgb(25, 16, 84);
+
+}
+.year1 {
+    margin-top:0px;
+}
+.school {
+    display:flex;
+    flex-direction: column;
+    justify-content: start; 
+    margin-top:20px;
+    padding:10px;
+background-color: rgb(71, 202, 154);
+border-radius: 10px;
+box-shadow: 0px 3px black 3px;
+}
+.school:hover {
+    border: 2px solid #c50505;   
+
+}
+.head {
+    margin-left:20px;
+    padding:10px;
+    color:azure;
+    width:250px;
+    background-color: rgb(222, 69, 140);
+    border-radius: 10px;
+}
+.hackerranklogo {
+    width:150px;
+}
+.logo {
+    width:100px;
+}
+.logoCon {
+    margin-top:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:769px) {
+    .engineering {
+        width:90%;
+        height:450px;
+        margin-right: 0px;
+    }
+    .intermediate {
+        width:90%;
+        height:400px;
+    }
+    .school {
+        width:90%;
+    }
+    .education {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding:10px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .onlineEducation {
+        justify-content: center;
+        align-items: center;
+    }
+    .nxtwave {
+        width:90%;
+        height:auto;
+        margin-right:0px;
+    }
+}

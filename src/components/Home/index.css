@@ -1,0 +1,35 @@
+.mainCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.welcomeCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome {
+    color:white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.name {
+    color:red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.role {
+    color:white;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, sans-serif;
+}
+@media screen and (max-width:768px) {
+   .mainCon {
+    align-items: flex-start;
+   }
+   .welcomeCon {
+    margin-top: 150px;;
+   }
+}

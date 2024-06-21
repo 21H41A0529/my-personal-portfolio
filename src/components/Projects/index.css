@@ -1,0 +1,4 @@
+.projectsCon {
+    display:flex;
+    flex-direction: column;
+}
