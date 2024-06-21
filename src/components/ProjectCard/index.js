@@ -2,7 +2,7 @@ import "./index.css"
 
 const ProjectCard=(props)=>{
     const {p}=props;
-    const {id,imageName,imageUrl,demoLink,githubLink,technologies,category}=p
+    const {imageName,imageUrl,demoLink,githubLink,technologies}=p
     return(
 <li className="projectcard">
    <div >
@@ -12,8 +12,8 @@ const ProjectCard=(props)=>{
         <p className="info1">Technologies Used:<span className="info2">
             {technologies}
             </span></p>
-        <p className="info1">githubLink:<a href={githubLink} target="_blank">Link</a></p>
-        <p className="info1">Demo:<a href={demoLink} target="_blank">Link</a></p>
+        <p className="info1">githubLink:<a href={githubLink} target="_blank" rel="noreferrer">Link</a></p>
+        <p className="info1">Demo:<a href={demoLink} target="_blank" rel="noreferrer">Link</a></p>
     </div>
 </li>
 )
