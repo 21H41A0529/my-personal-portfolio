@@ -1,4 +1,4 @@
-import myResume from "../images/my resume june4.pdf"
+import myResume from "../images/21H41A0529.pdf"
 import "./index.css"
 
 
