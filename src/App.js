@@ -6,7 +6,6 @@ import About from './components/About'
 import Education from './components/Education'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
-import Resume from './components/Resume'
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 
@@ -19,7 +18,6 @@ const App = () => (
     <Route exact path="/education" component={Education}/>
     <Route exact path="/projects" component={Projects}/>
     <Route exact path="/skills" component={Skills}/>
-    <Route exact path="/resume" component={Resume}/>
     <Route exact path="/contact" component={Contact}/>
     <Route component={NotFound}/>
   </Switch>

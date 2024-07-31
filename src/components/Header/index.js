@@ -33,11 +33,7 @@ const Header=()=> (
             Skills
             </Link>
         </li>
-        <li>
-            <Link to="/resume" className="element">
-            Resume
-            </Link>
-        </li>
+        
         <li>
             <Link to="/contact" className="element">
             Contact
