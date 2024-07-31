@@ -1,17 +1,14 @@
 {
   "files": {
-    "main.css": "/my-personal-portfolio/static/css/main.0f2c821f.css",
-    "main.js": "/my-personal-portfolio/static/js/main.9603ece7.js",
+    "main.css": "/my-personal-portfolio/static/css/main.77d0bedd.css",
+    "main.js": "/my-personal-portfolio/static/js/main.ab337420.js",
     "static/js/453.ace21015.chunk.js": "/my-personal-portfolio/static/js/453.ace21015.chunk.js",
     "static/media/foodmunch.jpg": "/my-personal-portfolio/static/media/foodmunch.aec89d10ec3d77b73584.jpg",
     "static/media/weki search.jpg": "/my-personal-portfolio/static/media/weki search.ceb8d24246854f3f9ba7.jpg",
-    "static/media/laptop.jpg": "/my-personal-portfolio/static/media/laptop.f13ad3903df0828a4f92.jpg",
     "static/media/background.png": "/my-personal-portfolio/static/media/background.ea8272f7046c7a65c881.png",
     "static/media/codetantra.png": "/my-personal-portfolio/static/media/codetantra.ba0e438f36fc24e0bd24.png",
     "static/media/sasiheader.jpg": "/my-personal-portfolio/static/media/sasiheader.8d1a7288f737929b7830.jpg",
     "static/media/todo.jpg": "/my-personal-portfolio/static/media/todo.6d599568c51f591dd047.jpg",
-    "static/media/resumeBackground.jpg": "/my-personal-portfolio/static/media/resumeBackground.2a8838335aa673baa4d1.jpg",
-    "static/media/21H41A0529.pdf": "/my-personal-portfolio/static/media/21H41A0529.e5d9399c6a8623b66d8b.pdf",
     "static/media/hackerrank.gif": "/my-personal-portfolio/static/media/hackerrank.7b161ab8d9901a36354e.gif",
     "static/media/BVCR-Header.webp": "/my-personal-portfolio/static/media/BVCR-Header.ba6fb9952233148689c0.webp",
     "static/media/portfolio.jpg": "/my-personal-portfolio/static/media/portfolio.89f2d8299f8ca2046018.jpg",
@@ -19,12 +16,12 @@
     "static/media/nxtwave.svg": "/my-personal-portfolio/static/media/nxtwave.9167c561675335244b0a12fc1fa74341.svg",
     "static/media/hql.webp": "/my-personal-portfolio/static/media/hql.1587f8a0f6dff35cb70c.webp",
     "index.html": "/my-personal-portfolio/index.html",
-    "main.0f2c821f.css.map": "/my-personal-portfolio/static/css/main.0f2c821f.css.map",
-    "main.9603ece7.js.map": "/my-personal-portfolio/static/js/main.9603ece7.js.map",
+    "main.77d0bedd.css.map": "/my-personal-portfolio/static/css/main.77d0bedd.css.map",
+    "main.ab337420.js.map": "/my-personal-portfolio/static/js/main.ab337420.js.map",
     "453.ace21015.chunk.js.map": "/my-personal-portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f2c821f.css",
-    "static/js/main.9603ece7.js"
+    "static/css/main.77d0bedd.css",
+    "static/js/main.ab337420.js"
   ]
 }
