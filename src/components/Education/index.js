@@ -53,19 +53,7 @@ const Education=()=>(
     <h1 className="head">Online Certifications</h1>
     <div className="onlineEducation">
       
-       <div className="nxtwave">
-        <div className="logoCon">
-        <img src={nxtwaveImage} alt="nxtwaveLogo" className="logo"/>
-
-        </div>
-          <h1 className="title">Certifications I have Done</h1>
-          <ul className="year">
-            <li>HTML,CSS,JAVASCRIPT</li>
-            <li>REACT,NODE</li>
-            <li>SQL,Mongodb</li>
-            <li>AWS</li>
-          </ul>
-       </div>
+      
       
       <div className="nxtwave">
       <div className="logoCon">
