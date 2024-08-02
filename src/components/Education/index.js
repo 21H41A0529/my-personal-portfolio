@@ -17,7 +17,7 @@ const Education=()=>(
             <img src={bvcImage} alt="bvcLogo" className="bvcImage"/>
         </div>
         <div className="List">
-            <h1 className="title">B.Tech in computer science</h1>
+            <h1 className="title">B.Tech in computer science and engineering</h1>
             <p className="year year1">2021-2025</p>
             <h4 className="learntTitle">Courses i have Learnt</h4>
             <ul className="courses">
