@@ -15,7 +15,7 @@ const interests = [
 const About=()=>(
 <div className="aboutCon">
 <div className="interests">
- <h1 className="heading">Things I Like</h1>
+ <h1 className="heading">Things I Like </h1>
  <ul className="interestsList">
     {interests.map((interest)=> 
     <li className="interestElement">
@@ -25,7 +25,7 @@ const About=()=>(
 </div>
     <div className="contentCon">
     <p>
-    I'm Subbalakshmi Narayanamma Kumpatla, a passionate Full-stack Developer. With a solid background in Computer Science Engineering, I thrive on leveraging technology to create innovative solutions that solve real-world problems.
+    I am Subbalakshmi Narayanamma Kumpatla, a passionate Full-stack Developer. With a solid background in Computer Science Engineering, I thrive on leveraging technology to create innovative solutions that solve real-world problems.
 </p>
 <p>
 My journey began with a strong academic foundation at Bonam Venkata Chalamayya Institute of Technology and Science, where I excelled in Computer Science Engineering. I've honed my skills in both frontend (HTML, CSS, JavaScript, React.js) and backend development (Python, Express, Node.js), and have practical experience deploying scalable solutions on AWS Cloud.
